@@ -1,0 +1,239 @@
+.preview-app {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #1C1C1E;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+}
+
+
+/* ── Main ────────────────────────────────────── */
+.preview-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+
+/* ── Page content ────────────────────────────── */
+.exp-page {
+  flex: 1;
+  overflow-y: auto;
+  padding: 32px 28px;
+  background: #1C1C1E;
+}
+
+/* Hero */
+.exp-hero {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.exp-hero-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  width: 140px;
+  text-align: center;
+}
+
+.exp-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  margin-bottom: 12px;
+  background-image: url('/profile.jpg');
+  background-size: 187%;
+  background-position: 65% 65%;
+  transform: rotate(90deg);
+}
+
+.exp-hero-text {
+  flex: 1;
+  min-width: 0;
+  padding-top: 4px;
+}
+
+.exp-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  margin: 0 0 6px;
+  letter-spacing: -0.3px;
+}
+
+.exp-title-badge {
+  display: inline-block;
+  background: rgba(10, 132, 255, 0.18);
+  color: #5AC8FA;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+.exp-bio {
+  font-size: 12.5px;
+  color: #AEAEB2;
+  line-height: 1.65;
+  margin: 0 0 8px;
+}
+
+.exp-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.exp-tag {
+  background: #2C2C2E;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 3px 10px;
+  font-size: 11.5px;
+  color: #AEAEB2;
+  font-weight: 500;
+}
+
+.exp-divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.07);
+  margin: 24px 0;
+}
+
+/* Sections */
+.exp-section {
+  margin-bottom: 8px;
+}
+
+.exp-section-title {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #6E6E73;
+  margin: 0 0 14px;
+}
+
+.exp-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.exp-card {
+  background: #2C2C2E;
+  border-radius: 12px;
+  padding: 16px 18px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.exp-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.exp-card-logo-img {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  flex-shrink: 0;
+  margin-top: 1px;
+  border-radius: 6px;
+}
+
+.exp-card-meta {
+  flex: 1;
+  min-width: 0;
+}
+
+.exp-card-company {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
+
+.exp-card-role {
+  font-size: 12px;
+  color: #8E8E93;
+  margin-top: 2px;
+}
+
+.exp-card-right {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.exp-card-dates {
+  font-size: 12px;
+  font-weight: 600;
+  color: #AEAEB2;
+}
+
+.exp-card-location {
+  font-size: 11px;
+  color: #6E6E73;
+  margin-top: 2px;
+}
+
+.exp-card-summary {
+  margin: 0;
+  font-size: 12px;
+  color: #AEAEB2;
+  line-height: 1.6;
+}
+
+.exp-link {
+  color: #5AC8FA;
+  text-decoration: none;
+}
+
+.exp-link:hover {
+  text-decoration: underline;
+}
+
+/* Skills */
+.exp-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.exp-skill-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.exp-skill-cat {
+  font-size: 12px;
+  font-weight: 600;
+  color: #6E6E73;
+  width: 80px;
+  flex-shrink: 0;
+  padding-top: 4px;
+}
+
+.exp-skill-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.exp-skill-pill {
+  background: #3A3A3C;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 4px 12px;
+  font-size: 12px;
+  color: #F2F2F7;
+  font-weight: 500;
+}

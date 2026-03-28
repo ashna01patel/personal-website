@@ -1,0 +1,56 @@
+.terminal {
+  width: 100%;
+  height: 100%;
+  background: #1a1a1c;
+  padding: 14px 20px 14px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.terminal-text {
+  font-family: 'SF Mono', 'Monaco', 'Menlo', 'Courier New', monospace;
+  font-size: 13px;
+  line-height: 1.65;
+  color: #d0f0d0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin: 0;
+}
+
+.terminal-cursor {
+  display: inline-block;
+  color: #4DFA7B;
+  opacity: 0;
+  transition: none;
+}
+
+.terminal-cursor.on {
+  opacity: 1;
+}
+
+.terminal-cmd {
+  color: #ffffff;
+}
+
+.terminal-output {
+  color: #9EE8B8;
+}
+
+.terminal-input-row {
+  display: flex;
+  align-items: flex-start;
+}
+
+.terminal-input-row .terminal-text {
+  margin: 0;
+}
+
+.terminal-hidden-input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+  border: none;
+  outline: none;
+}

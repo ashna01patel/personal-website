@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Skill(claude-api)",
+      "Bash(screencapture:*)",
+      "WebFetch(domain:photos.app.goo.gl)",
+      "WebFetch(domain:photos.google.com)",
+      "Bash(sips:*)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
