@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { AnimatePresence } from 'framer-motion'
+import { Analytics } from '@vercel/analytics/react'
 import Desktop from './components/Desktop'
 import Dock from './components/Dock'
 import Window from './components/Window'
@@ -154,6 +155,7 @@ export default function App() {
         bouncingApps={bouncingApps}
         onAppClick={openApp}
       />
+      <Analytics />
     </Desktop>
   )
 }
