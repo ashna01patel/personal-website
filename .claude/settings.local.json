@@ -7,7 +7,8 @@
       "WebFetch(domain:photos.app.goo.gl)",
       "WebFetch(domain:photos.google.com)",
       "Bash(sips:*)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(node --env-file=.env -e \":*)"
     ]
   }
 }
